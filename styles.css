@@ -1,12 +1,48 @@
+body {
+  text-align: center;
+  background-color: rgb(249, 239, 205);
+}
+section {
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  margin: 15px 20px;
+}
+/* Header */
+
 /* Color */
 .color {
   display: inline-block;
+  width: 31%;
+  margin: 20px 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 #silver {
   background-color: silver;
-  margin-left: 10px;
+}
+#hotpink {
+  background-color: hotpink;
+}
+#skyblue {
+  background-color: skyblue;
+}
+#lime {
+  background-color: lime;
+}
+#crimson {
+  background-color: crimson;
+}
+#gold {
+  background-color: gold;
+}
+/* Fonts */
+#fonts:not(h2) {
+  display: inline-block;
+  font-size: 15px;
 }
 
-/* Fonts */
+.cinzel {
+  font-family: "Cinzel", serif;
+}
 
 /* Text Styles */
