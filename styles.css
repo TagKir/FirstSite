@@ -36,13 +36,65 @@ section {
   background-color: gold;
 }
 /* Fonts */
-#fonts:not(h2) {
+#fonts article {
   display: inline-block;
-  font-size: 15px;
+  margin: 0 30px;
+  font-size: 20px;
+  width: 25%;
+  text-align: left;
 }
-
-.cinzel {
-  font-family: "Cinzel", serif;
+#fonts h3 {
+  text-decoration: underline;
+  font-weight: 400;
 }
-
+.roboto {
+  font-family: "Roboto", serif;
+}
+#roboto {
+  position: relative;
+  bottom: 9px;
+}
+#lor {
+  position: relative;
+  bottom: 1px;
+}
+.ibmplexsans {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.lora {
+  font-family: "Lora", serif;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
 /* Text Styles */
+#textstyles article {
+  display: inline-block;
+  margin: 100 auto;
+  text-align: left;
+  font-size: 20px;
+  padding-right: 40px;
+}
+#textstyles h3 {
+  position: relative;
+  left: 30px;
+}
+
+#h1main {
+  font-weight: 700 (bold);
+  font-size: 26px;
+  font-family: "Roboto", "IBM Plex Sans", serif;
+}
+#h2sub {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Roboto", "Lora", sans-serif;
+}
+#ppar {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Roboto, Lora, sans-serif;
+}
