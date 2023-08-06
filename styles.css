@@ -7,8 +7,30 @@ section {
   margin-bottom: 10px;
   margin: 15px 20px;
 }
-/* Header */
-
+h1 {
+  font-family: "Roboto Slab", "serif";
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+  font-family: "Roboto Slab", "serif";
+}
+header p,
+h4 a {
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+  color: pink;
+}
+a:active {
+  color: deeppink;
+}
+nav ul li {
+  display: inline-block;
+  width: 100%;
+  font-size: 80px;
+}
 /* Color */
 .color {
   display: inline-block;
